@@ -7,3 +7,20 @@ input {
   outline: none;
   margin-right: 20px;
 }
+
+.box {
+  display: flex;
+  justify-content: end;
+}
+
+#short {
+  background: #2F4858;
+  margin: 10px 0;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 8px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
