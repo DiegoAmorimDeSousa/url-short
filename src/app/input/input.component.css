@@ -24,3 +24,23 @@ input {
   letter-spacing: 1.5px;
   cursor: pointer;
 }
+
+a {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.box-url-copy {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}
