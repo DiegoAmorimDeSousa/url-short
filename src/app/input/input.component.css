@@ -23,6 +23,12 @@ input {
   font-family: "Roboto Mono", monospace;
   letter-spacing: 1.5px;
   cursor: pointer;
+  font-weight: bold;
+}
+
+#short:hover {
+  background: #5188aa;
+  transition: background 1.5s;
 }
 
 a {
