@@ -28,5 +28,6 @@ export class InputComponent {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
+    alert('URL copiada para a área de transferência!')
   }
 }
