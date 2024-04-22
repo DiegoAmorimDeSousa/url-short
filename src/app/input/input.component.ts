@@ -10,7 +10,7 @@ export class InputComponent {
   shortenedUrl: string = '';
 
   short() {
-    fetch(`http://is.gd/create.php?url=${this.urlInput}&format=json`)
+    fetch(`https://is.gd/create.php?url=${this.urlInput}&format=json`)
       .then(response => response.json())
       .then(data => {
         this.shortenedUrl = data.shorturl;
